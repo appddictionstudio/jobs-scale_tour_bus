@@ -16,9 +16,9 @@ body {
 .stage {
   position: relative;
   min-height: 60vh;
-  width: 800px;
+  width: 900px;
   margin: auto;
-  right: 200px;
+  right: 125px;
 }
 
 .ground-line {
@@ -153,8 +153,8 @@ body {
 }
 
 .vehicle-body {
-  width: 500px;
-  height: 220px;
+  width: 700px;
+  height: 400px;
   position: absolute;
   right: 20%;
   bottom: 33px;
@@ -461,9 +461,10 @@ body {
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0;
   width: 80px;
-  height: 80%;
+  height: 50%;
   z-index: 9;
   background-color: #cacaca;
+  opacity: 50%;
 }
 .main-door::after {
   content: "";
@@ -685,8 +686,8 @@ body {
   margin-top: 1px;
 }
 .wheel-wrap {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   position: absolute;
   z-index: 9;
   bottom: -40px;
@@ -712,10 +713,10 @@ body {
   animation: wheelShadow 3s infinite ease;
 }
 .wheel-wrap.back {
-  left: 80px;
+  left: 299px;
 }
 .wheel-wrap.front {
-  right: -240px;
+  right: -352px;
 }
 .wheel-wrap .wheel {
   width: 76%;
