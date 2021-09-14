@@ -11712,4 +11712,8 @@ body {
     background-size: contain;
   }
 
+  .mobile-break {
+    height: 10px;
+  }
+
 }

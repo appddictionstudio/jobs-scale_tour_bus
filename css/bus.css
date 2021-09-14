@@ -1763,14 +1763,17 @@ body {
 
   .vehicle-body .wrap-body {
     left: -200px;
+    /* margin-top: 300px; */
   }
 
   .wheel-wrap.back {
     left: 122px;
+    /* top: 300px; */
   }
 
   .wheel-wrap.front  {
     right: -179px;
+    /* margin-top: 300px; */
   }
 
 }
