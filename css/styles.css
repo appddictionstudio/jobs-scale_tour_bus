@@ -11547,7 +11547,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 15rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/road.jpg");
   background-position: center;
@@ -11684,4 +11684,32 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+@media only screen and (max-width: 500px){
+  .bus-mobile-img {
+    background: url('../assets/img/bus_wrap.png')
+  }
+}
+
+
+.test {
+  border: 5px solid darkgray
+}
+
+.test-purple {
+  border: 5px solid purple
+}
+
+.test-green {
+  border: 5px solid green
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .masthead {
+    background-size: contain;
+  }
+
 }
