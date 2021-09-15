@@ -11709,7 +11709,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .masthead {
-    background-size: contain;
+    background-size: 200;
   }
 
   .mobile-break {
