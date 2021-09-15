@@ -11549,7 +11549,7 @@ body {
   height: auto;
   min-height: 15rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/road.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/Nashville11.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11709,8 +11709,29 @@ body {
 
 @media only screen and (max-width: 600px) {
   .masthead {
-    background-size: 200;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/Nashville11.webp");
+    background-size: 675%;
+    background-repeat: no-repeat;
+    opacity: 120%;
+
   }
+
+  .bus-mobile {
+    margin-top: -200px;
+  }
+
+  /* .masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 15rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/road.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  } */
 
   .mobile-break {
     height: 10px;
