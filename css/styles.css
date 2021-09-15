@@ -11686,11 +11686,11 @@ body {
   padding: 5rem 0;
 }
 
-@media only screen and (max-width: 500px){
+/* @media only screen and (max-width: 500px){
   .bus-mobile-img {
     background: url('../assets/img/bus_wrap.png')
   }
-}
+} */
 
 
 .test {
